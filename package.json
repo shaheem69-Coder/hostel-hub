@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
