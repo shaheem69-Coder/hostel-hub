@@ -3,7 +3,8 @@
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist",
+    "publish-all": "git add . && git commit -m 'Update site' && git push && vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
